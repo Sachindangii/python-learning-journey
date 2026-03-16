@@ -1,0 +1,35 @@
+# =============================
+# Day 01 - Booleans in Python
+# Date: 16 March 2026
+# =============================
+
+# Boolean sirf 2 values hoti hain
+is_learning = True
+is_expert = False
+
+print(f"Learning Python: {is_learning}")
+print(f"Am I expert: {is_expert}")
+
+# Comparison Operators
+age = 17
+print(f"\n--- Comparisons ---")
+print(f"age > 18  : {age > 18}")   # False
+print(f"age < 18  : {age < 18}")   # True
+print(f"age == 17 : {age == 17}")  # True
+print(f"age != 18 : {age != 18}")  # True
+
+# Logical Operators
+has_github = True
+knows_python = False
+
+print(f"\n--- Logical ---")
+print(f"AND: {has_github and knows_python}")  # False
+print(f"OR : {has_github or knows_python}")   # True
+print(f"NOT: {not has_github}")               # False
+
+# Real life example
+commits_today = 8
+print(f"\n--- My GitHub ---")
+print(f"Dark green today: {commits_today >= 16}")
+print(f"Medium green    : {commits_today >= 4}")
+print(f"Light green     : {commits_today >= 1}")

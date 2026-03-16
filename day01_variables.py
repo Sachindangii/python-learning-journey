@@ -37,3 +37,23 @@ profile = {
     "day": 1
 }
 print(f"Profile: {profile}")
+# =============================
+# Extra Practice
+# =============================
+
+# Type conversion
+age_str = str(17)
+age_int = int("17")
+age_float = float("17")
+
+print(f"String : {age_str}  → {type(age_str)}")
+print(f"Integer: {age_int}  → {type(age_int)}")
+print(f"Float  : {age_float} → {type(age_float)}")
+
+print("Variables practice complete! 🔥")
+# Input from user
+user_name = input("Enter your name: ")
+user_age = input("Enter your age: ")
+print(f"Hello {user_name}! You are {user_age} years old!")
+print("🔥 Keep coding every day!")
+

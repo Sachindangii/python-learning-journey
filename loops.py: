@@ -1,0 +1,31 @@
+# For Loop
+for i in range(5):
+    print(f"Count: {i}")
+
+# For Loop with List
+skills = ["Python", "Git", "GitHub", "Full Stack", "AI/ML"]
+for skill in skills:
+    print(skill)
+
+# While Loop
+count = 1
+while count <= 5:
+    print(f"Day: {count}")
+    count += 1
+
+# Break
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+
+# Continue
+for i in range(10):
+    if i % 2 == 0:
+        continue
+    print(f"Odd: {i}")
+
+# Nested Loop - Multiplication Table
+for i in range(1, 6):
+    for j in range(1, 6):
+        print(f"{i} x {j} = {i*j}")
